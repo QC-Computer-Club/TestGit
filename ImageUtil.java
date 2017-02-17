@@ -4,7 +4,8 @@ import javax.imageio.*;
 
 public class ImageUtil
 {
-   public static BufferedImage loadImage(String ref) {  
+   public static BufferedImage loadImage(String ref)
+   {  
       BufferedImage bimg = null;  
       try {  
          bimg = ImageIO.read(new File(ref));  
