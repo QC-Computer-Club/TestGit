@@ -2,8 +2,10 @@ import java.awt.*;
 import java.awt.image.*;
 import javax.swing.*;
 
-public class ImageApp {  
-   public void loadAndDisplayImage(JFrame frame) {  
+public class ImageApp
+{  
+   public void loadAndDisplayImage(JFrame frame)
+   {  
       // Load the img  
       BufferedImage loadImg = ImageUtil.loadImage("PAX-East-logo.gif");  
       frame.setBounds(0, 0, loadImg.getWidth(), loadImg.getHeight()); 
